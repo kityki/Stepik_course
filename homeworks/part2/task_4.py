@@ -33,10 +33,10 @@ Sample Output 1:
 a, b, c, d = int(input()), int(input()), int(input()), int(input())
 
 for g in range(c, d + 1):
-    print('\t', g, end = '')
+    print('\t', g, end='')
 for h in range(a, b + 1):
-    print('\n', h, end = '')
+    print('\n', h, end='')
     for j in range(c, d + 1):
-        print('\t', h * j, end = '')
-    print(end = '')
+        print('\t', h * j, end='')
+    print(end='')
 
